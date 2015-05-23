@@ -16,5 +16,16 @@ namespace DemoSVN
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form f = new Form1();
+            f.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Form 1");
+        }
     }
 }
