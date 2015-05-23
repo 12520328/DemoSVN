@@ -12,6 +12,7 @@ namespace DemoSVN
 {
     public partial class Form2 : Form
     {
+        PhepCong c = new PhepCong();
         public Form2()
         {
             InitializeComponent();
@@ -25,7 +26,8 @@ namespace DemoSVN
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Form 1");
+            int sum = int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
+            MessageBox.Show(sum.ToString());
         }
     }
 }
